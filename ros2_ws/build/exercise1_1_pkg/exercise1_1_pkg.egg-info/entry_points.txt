@@ -1,0 +1,3 @@
+[console_scripts]
+exercise1_1 = exercise1_1_pkg.exercise1_1:main
+

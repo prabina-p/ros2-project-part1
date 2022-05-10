@@ -1,0 +1,25 @@
+[2.814s] Invoking command in '/home/user/ros2_ws/src/exercise1_1_pkg': PYTHONPATH=/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise1_1_pkg build --build-base /home/user/ros2_ws/build/exercise1_1_pkg/build install --prefix /home/user/ros2_ws/install/exercise1_1_pkg --record /home/user/ros2_ws/build/exercise1_1_pkg/install.log --single-version-externally-managed
+[4.958s] running egg_info
+[4.958s] writing ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/PKG-INFO
+[4.958s] writing dependency_links to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/dependency_links.txt
+[4.959s] writing entry points to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/entry_points.txt
+[4.959s] writing requirements to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/requires.txt
+[4.960s] writing top-level names to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/top_level.txt
+[5.270s] reading manifest file '../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/SOURCES.txt'
+[5.272s] writing manifest file '../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/SOURCES.txt'
+[5.279s] running build
+[5.279s] running build_py
+[5.279s] copying exercise1_1_pkg/exercise1_1.py -> /home/user/ros2_ws/build/exercise1_1_pkg/build/lib/exercise1_1_pkg
+[5.280s] running install
+[5.281s] running install_lib
+[5.289s] copying /home/user/ros2_ws/build/exercise1_1_pkg/build/lib/exercise1_1_pkg/exercise1_1.py -> /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg
+[5.294s] byte-compiling /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg/exercise1_1.py to exercise1_1.cpython-38.pyc
+[5.295s] running install_data
+[5.303s] running install_egg_info
+[5.306s] Sorry: IndentationError: unexpected indent (exercise1_1.py, line 26)
+[5.318s] removing '/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.322s] Copying ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info to /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg-0.0.0-py3.8.egg-info
+[5.328s] running install_scripts
+[5.561s] Installing exercise1_1 script to /home/user/ros2_ws/install/exercise1_1_pkg/lib/exercise1_1_pkg
+[5.561s] writing list of installed files to '/home/user/ros2_ws/build/exercise1_1_pkg/install.log'
+[5.810s] Invoked command in '/home/user/ros2_ws/src/exercise1_1_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise1_1_pkg build --build-base /home/user/ros2_ws/build/exercise1_1_pkg/build install --prefix /home/user/ros2_ws/install/exercise1_1_pkg --record /home/user/ros2_ws/build/exercise1_1_pkg/install.log --single-version-externally-managed

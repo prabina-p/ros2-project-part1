@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.012154] (exercise1_1_pkg) JobQueued: {'identifier': 'exercise1_1_pkg', 'dependencies': OrderedDict()}
+[0.018022] (exercise1_1_pkg) JobStarted: {'identifier': 'exercise1_1_pkg'}
+[0.101777] (-) TimerEvent: {}
+[0.203707] (-) TimerEvent: {}
+[0.304975] (-) TimerEvent: {}
+[0.405689] (-) TimerEvent: {}
+[0.506148] (-) TimerEvent: {}
+[0.606578] (-) TimerEvent: {}
+[0.707602] (-) TimerEvent: {}
+[0.813066] (-) TimerEvent: {}
+[0.916983] (-) TimerEvent: {}
+[1.023720] (-) TimerEvent: {}
+[1.127699] (-) TimerEvent: {}
+[1.228555] (-) TimerEvent: {}
+[1.339924] (-) TimerEvent: {}
+[1.440641] (-) TimerEvent: {}
+[1.542390] (-) TimerEvent: {}
+[1.651866] (-) TimerEvent: {}
+[1.764105] (-) TimerEvent: {}
+[1.864613] (-) TimerEvent: {}
+[1.965914] (-) TimerEvent: {}
+[2.067716] (-) TimerEvent: {}
+[2.171700] (-) TimerEvent: {}
+[2.273485] (-) TimerEvent: {}
+[2.374061] (-) TimerEvent: {}
+[2.477207] (-) TimerEvent: {}
+[2.579809] (-) TimerEvent: {}
+[2.680460] (-) TimerEvent: {}
+[2.783343] (-) TimerEvent: {}
+[2.888251] (-) TimerEvent: {}
+[2.991801] (-) TimerEvent: {}
+[3.095715] (-) TimerEvent: {}
+[3.215699] (-) TimerEvent: {}
+[3.321972] (-) TimerEvent: {}
+[3.439863] (-) TimerEvent: {}
+[3.543842] (-) TimerEvent: {}
+[3.647392] (-) TimerEvent: {}
+[3.750674] (-) TimerEvent: {}
+[3.852733] (-) TimerEvent: {}
+[3.955755] (-) TimerEvent: {}
+[4.057256] (-) TimerEvent: {}
+[4.175162] (-) TimerEvent: {}
+[4.281165] (-) TimerEvent: {}
+[4.387548] (-) TimerEvent: {}
+[4.477742] (exercise1_1_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/exercise1_1_pkg', 'build', '--build-base', '/home/user/ros2_ws/build/exercise1_1_pkg/build', 'install', '--prefix', '/home/user/ros2_ws/install/exercise1_1_pkg', '--record', '/home/user/ros2_ws/build/exercise1_1_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/ros2_ws/src/exercise1_1_pkg', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://1_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '1_xterm', 'NVIDIA_REQUIRE_CUDA': 'cuda>=11.1 brand=tesla,driver>=418,driver<419 brand=tesla,driver>=440,driver<441 brand=tesla,driver>=450,driver<451', 'NCCL_VERSION': '2.7.8', 'SLOT_OVPN_MASTER_URI': 'http://1_xterm:11311', 'PWD': '/home/user/ros2_ws/build/exercise1_1_pkg', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'compute,utility', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CUDA_VERSION': '11.1.1', 'AMENT_PREFIX_PATH': '/home/user/ros2_ws/install/exercise1_1_pkg:/home/simulations/ros2_sims_ws/install/ros1_bridge:/opt/ros/foxy', 'CMAKE_PREFIX_PATH': '/home/simulations/ros2_sims_ws/install/ros1_bridge', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages:/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GAZEBO_MASTER_HOSTNAME': '1_xterm', 'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://1_xterm:11311', 'ROS_HOSTNAME': '1_xterm', 'LD_LIBRARY_PATH': '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/ros1_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '541782', 'SLOT_PREFIX': 'f8a59319-19cb-4f70-ba3c-809ca8a017fc', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25172', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/foxy/bin:/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SELECTED_ROS_DISTRO': 'foxy', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v6.11.2/bin', 'NODE_VERSION': 'v6.11.2', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'foxy', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user/ros2_ws/src/exercise1_1_pkg/launch', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20001', '_': '/usr/bin/env'}, 'shell': False}
+[4.502139] (-) TimerEvent: {}
+[4.640124] (-) TimerEvent: {}
+[4.740658] (-) TimerEvent: {}
+[4.842006] (-) TimerEvent: {}
+[4.948207] (-) TimerEvent: {}
+[5.050188] (-) TimerEvent: {}
+[5.153651] (-) TimerEvent: {}
+[5.259900] (-) TimerEvent: {}
+[5.360358] (-) TimerEvent: {}
+[5.461456] (-) TimerEvent: {}
+[5.570608] (-) TimerEvent: {}
+[5.674924] (-) TimerEvent: {}
+[5.779857] (-) TimerEvent: {}
+[5.880739] (-) TimerEvent: {}
+[5.984044] (-) TimerEvent: {}
+[6.084500] (-) TimerEvent: {}
+[6.184985] (-) TimerEvent: {}
+[6.286713] (-) TimerEvent: {}
+[6.397753] (-) TimerEvent: {}
+[6.503731] (-) TimerEvent: {}
+[6.604390] (-) TimerEvent: {}
+[6.704876] (-) TimerEvent: {}
+[6.805401] (-) TimerEvent: {}
+[6.907764] (-) TimerEvent: {}
+[7.010330] (-) TimerEvent: {}
+[7.111723] (-) TimerEvent: {}
+[7.215704] (-) TimerEvent: {}
+[7.319785] (-) TimerEvent: {}
+[7.423746] (-) TimerEvent: {}
+[7.540233] (-) TimerEvent: {}
+[7.640698] (-) TimerEvent: {}
+[7.743690] (-) TimerEvent: {}
+[7.845148] (-) TimerEvent: {}
+[7.948865] (-) TimerEvent: {}
+[8.050960] (-) TimerEvent: {}
+[8.087483] (exercise1_1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[8.103746] (exercise1_1_pkg) StdoutLine: {'line': b'writing ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/PKG-INFO\n'}
+[8.104211] (exercise1_1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/dependency_links.txt\n'}
+[8.104503] (exercise1_1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/entry_points.txt\n'}
+[8.104798] (exercise1_1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/requires.txt\n'}
+[8.105084] (exercise1_1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/top_level.txt\n'}
+[8.159857] (-) TimerEvent: {}
+[8.260322] (-) TimerEvent: {}
+[8.365856] (-) TimerEvent: {}
+[8.466305] (-) TimerEvent: {}
+[8.502322] (exercise1_1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/SOURCES.txt'\n"}
+[8.536019] (exercise1_1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/SOURCES.txt'\n"}
+[8.536453] (exercise1_1_pkg) StdoutLine: {'line': b'running build\n'}
+[8.536742] (exercise1_1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.536932] (exercise1_1_pkg) StdoutLine: {'line': b'copying exercise1_1_pkg/exercise1_1.py -> /home/user/ros2_ws/build/exercise1_1_pkg/build/lib/exercise1_1_pkg\n'}
+[8.537150] (exercise1_1_pkg) StdoutLine: {'line': b'running install\n'}
+[8.567797] (-) TimerEvent: {}
+[8.570939] (exercise1_1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.583864] (exercise1_1_pkg) StdoutLine: {'line': b'copying /home/user/ros2_ws/build/exercise1_1_pkg/build/lib/exercise1_1_pkg/exercise1_1.py -> /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg\n'}
+[8.585771] (exercise1_1_pkg) StdoutLine: {'line': b'byte-compiling /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg/exercise1_1.py to exercise1_1.cpython-38.pyc\n'}
+[8.605086] (exercise1_1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.605349] (exercise1_1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.626480] (exercise1_1_pkg) StdoutLine: {'line': b"removing '/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[8.632901] (exercise1_1_pkg) StdoutLine: {'line': b'Copying ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info to /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg-0.0.0-py3.8.egg-info\n'}
+[8.636598] (exercise1_1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.668553] (-) TimerEvent: {}
+[8.770366] (-) TimerEvent: {}
+[8.816095] (exercise1_1_pkg) StdoutLine: {'line': b'Installing exercise1_1 script to /home/user/ros2_ws/install/exercise1_1_pkg/lib/exercise1_1_pkg\n'}
+[8.830702] (exercise1_1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_ws/build/exercise1_1_pkg/install.log'\n"}
+[8.870727] (-) TimerEvent: {}
+[8.975723] (-) TimerEvent: {}
+[9.020032] (exercise1_1_pkg) CommandEnded: {'returncode': 0}
+[9.075887] (-) TimerEvent: {}
+[9.177302] (-) TimerEvent: {}
+[9.227774] (exercise1_1_pkg) JobEnded: {'identifier': 'exercise1_1_pkg', 'rc': 0}
+[9.236037] (-) EventReactorShutdown: {}

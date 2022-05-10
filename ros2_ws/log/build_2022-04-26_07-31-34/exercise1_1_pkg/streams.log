@@ -1,0 +1,24 @@
+[2.476s] Invoking command in '/home/user/ros2_ws/src/exercise1_1_pkg': PYTHONPATH=/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise1_1_pkg build --build-base /home/user/ros2_ws/build/exercise1_1_pkg/build install --prefix /home/user/ros2_ws/install/exercise1_1_pkg --record /home/user/ros2_ws/build/exercise1_1_pkg/install.log --single-version-externally-managed
+[5.384s] running egg_info
+[5.385s] writing ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/PKG-INFO
+[5.386s] writing dependency_links to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/dependency_links.txt
+[5.388s] writing entry points to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/entry_points.txt
+[5.394s] writing requirements to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/requires.txt
+[5.397s] writing top-level names to ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/top_level.txt
+[5.672s] reading manifest file '../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/SOURCES.txt'
+[5.673s] writing manifest file '../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info/SOURCES.txt'
+[5.681s] running build
+[5.682s] running build_py
+[5.682s] copying exercise1_1_pkg/exercise1_1.py -> /home/user/ros2_ws/build/exercise1_1_pkg/build/lib/exercise1_1_pkg
+[5.682s] running install
+[5.682s] running install_lib
+[5.693s] copying /home/user/ros2_ws/build/exercise1_1_pkg/build/lib/exercise1_1_pkg/exercise1_1.py -> /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg
+[5.694s] byte-compiling /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg/exercise1_1.py to exercise1_1.cpython-38.pyc
+[5.698s] running install_data
+[5.699s] running install_egg_info
+[5.707s] removing '/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.707s] Copying ../../build/exercise1_1_pkg/exercise1_1_pkg.egg-info to /home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages/exercise1_1_pkg-0.0.0-py3.8.egg-info
+[5.710s] running install_scripts
+[5.788s] Installing exercise1_1 script to /home/user/ros2_ws/install/exercise1_1_pkg/lib/exercise1_1_pkg
+[5.794s] writing list of installed files to '/home/user/ros2_ws/build/exercise1_1_pkg/install.log'
+[5.912s] Invoked command in '/home/user/ros2_ws/src/exercise1_1_pkg' returned '0': PYTHONPATH=/home/user/ros2_ws/install/exercise1_1_pkg/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../build/exercise1_1_pkg build --build-base /home/user/ros2_ws/build/exercise1_1_pkg/build install --prefix /home/user/ros2_ws/install/exercise1_1_pkg --record /home/user/ros2_ws/build/exercise1_1_pkg/install.log --single-version-externally-managed
